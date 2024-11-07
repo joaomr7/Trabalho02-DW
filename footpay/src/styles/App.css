@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+body {
+  overflow-x: hidden;
+}
+
+.gradient-background {
+  background: linear-gradient(to bottom, #17222f, #333c48, #212529);
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+.brand-name {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.nav-link {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.3);
+  line-height: 20px;
+  display: inline-flex;
+  align-items: flex-end;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.nav-item .nav-link:hover {
+  color: white;
+}
+
+.nav-item .nav-link.active {
+  color: white;
+}
+
+.kpi-head-title {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.kpi-card-gradient {
+  background: linear-gradient(to right, #13b090, #6bd2a0);
+}
+
+.kpi-transparent-list {
+  background-color: transparent;
+  list-style: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.kpi-card-title {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.kpi-card-value {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 24px;
+  color: white;
+}
+
+.kpi-card-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.input-title {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.btn-custom {
+  font-family: "Noto Sans", sans-serif;
+  color: white !important;
+  font-size: 16px;
+  border: transparent;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom:visited,
+.btn-custom:focus-visible {
+  font-family: "Noto Sans", sans-serif;
+  color: white !important;
+  font-size: 16px;
+  border: transparent;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+}
+
+.rounded-table {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+}
+
+.rounded-table tr {
+  border-bottom: 1px solid rgba(65, 65, 65, 0.3);
+}
+
+.rounded-table tr:last-child {
+  border-bottom: none;
+}
+
+.table-icon-cell {
+  width: 1%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-icon-btn {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.table-header {
+  background: linear-gradient(to right, #13b090, #6bd2a0);
+  color: white !important;
+  line-height: 30px;
+}
+
+.table-header-transparent {
+  background: transparent !important;
+  color: white !important;
+}

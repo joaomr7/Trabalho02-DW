@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  border-radius: 8px;
+  padding: 0px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-title {
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+
+  width: 100%;
+  background: linear-gradient(to right, #13b090, #6bd2a0);
+  border-radius: 8px 8px 0 0;
+  padding: 16px;
+  margin: 0;
+
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12);
+}
+
+.modal-label-text {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.9);
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+}
+
+.modal-btn-ok {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  color: white;
+  background: linear-gradient(to right, #13b090, #6bd2a0);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12);
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.modal-btn-ok:hover {
+  color: white;
+  transform: translateY(-2px);
+}
+
+.modal-btn-ok:focus {
+  color: white;
+  transform: translateY(-2px);
+}
+
+.modal-btn-ok:active {
+  color: white !important;
+  transform: scale(0.95);
+}
+
+.modal-btn-cancel {
+  color: #13b090;
+  background: transparent;
+  border: 1px solid #13b090;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12);
+  transition: all 0.2s ease;
+}
+
+.modal-btn-cancel:hover {
+  color: #13b090;
+  background: transparent;
+  border: 1px solid #13b090;
+  transform: translateY(-2px);
+}
+
+.modal-btn-cancel:focus {
+  color: #13b090;
+  background: transparent;
+  border: 1px solid #13b090;
+  transform: translateY(-2px);
+}
+
+.modal-btn-cancel:active {
+  color: #13b090 !important;
+  background: transparent;
+  border: 1px solid #13b090;
+  transform: scale(0.95);
+}
+
+.modal-btn-delete {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  color: white;
+  background: linear-gradient(to right, #B70B0B, #EA392C);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12);
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.modal-btn-delete:hover {
+  color: white;
+  transform: translateY(-2px);
+}
+
+.modal-btn-delete:focus {
+  color: white;
+  transform: translateY(-2px);
+}
+
+.modal-btn-delete:active {
+  color: white !important;
+  transform: scale(0.95);
+}
+
+.modal-error-msg {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  color: #EA392C;
+}
