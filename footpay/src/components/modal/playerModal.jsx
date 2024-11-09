@@ -187,8 +187,8 @@ function PlayerModal({ player, isOpen, onClose }) {
             <input
               type="text"
               className="form-control"
-              placeholder="Nome do Jogador"
-              aria-label="Nome do Jogador"
+              placeholder="Nome do Time"
+              aria-label="Nome do Time"
               id="modal-team"
               value={playerTeam}
               onChange={updatePlayerTeam}
